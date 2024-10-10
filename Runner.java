@@ -1,24 +1,23 @@
 public class Runner {
     public static void main(String[] args) {
     CustomStringMethods methods = new CustomStringMethods();
-    String str = methods.halvesReversed("computer");  //even # of letters
-System.out.println(str);
-str = methods.halvesReversed("computers");        //odd # of letters
-System.out.println(str);
-str = methods.halvesReversed("sky");
-System.out.println(str);
-str = methods.halvesReversed("weekend");
-System.out.println(str);
-str = methods.halvesReversed("an");
-System.out.println(str);
-str = methods.halvesReversed("I");
-System.out.println(str);
-str = methods.halvesReversed("see you soon");
-System.out.println(str);
-str = methods.halvesReversed("see you later!");
-System.out.println(str);
-
+    boolean bool1 = methods.longerThan("Food", 2);
+    System.out.println(bool1);
+    String str2 = methods.funnyString("Banan", 1);
+    System.out.println(str2);
+    String str3 = methods.halvesReversed("Tacocat");
+    System.out.println(str3);
+    String str4 = methods.pigLatin("Hey");
+    System.out.println(str4);
+    String str5 = methods.removeCharacter("Help", 99);
+    System.out.println(str5);
+    String str6 = methods.insertAt("hello", "hi", "z");
+    System.out.println(str6);
+    String str7 = methods.endUp("qwerty", 99);
+    System.out.println(str7);
+    
+    String str8 = methods.yellOrWhisper("Abfghbdf");
+    System.out.println(str8);
 
     }
-
 }
